@@ -1,0 +1,36 @@
+## .NET / C#
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.dbmdl
+*.jfm
+
+## Environment / Secrets
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Rider / VS Code
+.idea/
+.vscode/
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+.nuget/
+packages/
+
+## EF Core migrations snapshot (keep migrations, ignore snapshots if desired)
+# Uncomment if needed:
+# **/Migrations/
+
+## Logs
+*.log
+logs/
